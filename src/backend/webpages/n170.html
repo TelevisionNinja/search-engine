@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html lang="en" class="ielt10 en"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" class=" en"><!--<![endif]-->
+<head>
+        <meta charset="utf-8">
+
+            <link rel="stylesheet" href="https://s-passets-ec.pinimg.com/webapp/style/app/desktop/bundle1.aac3ccb6.css">
+            <link rel="stylesheet" href="https://s-passets-ec.pinimg.com/webapp/style/app/desktop/bundle2.59fc7db5.css">
+            <link rel="stylesheet" href="https://s-passets-ec.pinimg.com/webapp/style/app/desktop/bundle3.be88b299.css">
+        
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/gpdjojdkbbmdfjfahjcgigfpmkopogic">
+
+    <script>
+                            window.isMainPinterestSite = true;
+        
+                var Pc = {
+            expns: {},
+            experiments: {"active": {}, "triggerable": {"gift_wrap_v2": "closeup_only"}},
+            pageStreaming: true,
+            scriptLoadLocation: null,
+            reportPageLoadTimings: false,
+            TEST_MODE: false,
+            dynamicallyLoadedJSFiles: {"webapp\/js\/app\/common\/bundle-mapbox.js": "https:\/\/s-passets-ec.pinimg.com\/webapp\/js\/app\/common\/bundle-mapbox.f2984856.js"}
+        };
+        
+                    var P={modules:{}};P.expns=Pc.expns;P.DEBUG=Pc.DEBUG;P.interfaces={};P.FB_KEY=-1;P.CONTEXT={};P.STRINGS={};P.PAGE_INFO=null;P.ROUTES=[];P.PAGE_ROUTE_PATTERN="";P.PAGE_LOAD_REQUEST_IDENTIFIER="";P.bodyColumns={_pinWidth:0,_pinMargin:0,_minColumns:0,_maxColumns:0,getBodyWidth:function(){return window.innerWidth||document.documentElement.clientWidth},getBodyColumnsNeeded:function(){var a=P.bodyColumns._pinWidth+P.bodyColumns._pinMargin,b=P.bodyColumns.getBodyWidth();return Math.min(Math.max(Math.floor(b/a),P.bodyColumns._minColumns),P.bodyColumns._maxColumns)},setNumColumns:function(a){var b=document.documentElement;a=a?a:P.bodyColumns.getBodyColumnsNeeded();var c=b.className.replace(/ columns-\d+/,
+"");b.className=c+(" columns-"+a)},initialize:function(a,b,c,e){P.bodyColumns._pinWidth=a;P.bodyColumns._pinMargin=b;P.bodyColumns._minColumns=c;P.bodyColumns._maxColumns=e;P.bodyColumns.setNumColumns()}};var _lastEvent=null,ADD_EVENT_LISTENER_DETECTED=!!document.addEventListener;function _addEventListener(a,b,c){ADD_EVENT_LISTENER_DETECTED&&a.addEventListener(b,c,!1)}function _removeEventListener(a,b,c){ADD_EVENT_LISTENER_DETECTED&&a.removeEventListener(b,c,!1)}var ClickCapturer=function(){_addEventListener(document,"click",_saveEvent)};ClickCapturer.prototype.replayEvents=function(){_removeEventListener(document,"click",_clearQueue);_lastEvent&&_lastEvent.target.click()};
+ClickCapturer.prototype.stopCapturing=function(){_removeEventListener(document,"click",_saveEvent);_addEventListener(document,"click",_clearQueue)};function _saveEvent(a){_lastEvent=a}function _clearQueue(){_lastEvent=null}P.ClickCapturer=ClickCapturer;P.clickCapturer=new P.ClickCapturer;var LOADED_CLASS=" loaded",FADE_CLASS=" fade";P.lazy={onImageLoad:function(a){var b=LOADED_CLASS;P.overlap.isOverlappingViewport(a)&&(b+=FADE_CLASS);a.className+=b}};window.P.lazy={onImageLoad:P.lazy.onImageLoad};P.overlap={isOverlappingViewport:function(a,b){void 0===b&&(b=0);var c=window.innerWidth||document.documentElement.clientWidth,e=window.innerHeight||document.documentElement.clientHeight;if(!a.getBoundingClientRect)return!0;var d=a.getBoundingClientRect(),g=d.bottom-d.top;return 0<d.right-d.left&&0<g&&d.top<e+b&&d.bottom>-b&&d.left<c+b&&d.right>-b}};P.scout={};P.scout.init=function(a){P.CONTEXT=a.context;P.FB_KEY=a.facebook_key;P.PAGE_INFO=a.page_info;P.ROUTES=a.routes;P.STREAMING=a.streaming;P.STRINGS=a.strings;P.PAGE_LOAD_REQUEST_IDENTIFIER=a.page_load_request_identifier;P.PAGE_ROUTE_PATTERN=a.page_route_pattern};window.P.scout={init:P.scout.init};P.script={};P.script.ready=function(a,b){$script.ready(a,b)};P.script.load=function(a,b,c){P.script.ready(a,function(){0===b.lastIndexOf("//",0)&&(b=window.location.protocol+b);$script(b,c)})};P.script.done=function(a){$script.done(a)};window.P.script={ready:P.script.ready,load:P.script.load,done:P.script.done};var JS_MODULE_ID_START_ARGS="startArgs",startArgsRef=null;P.start={};P.start.start=function(a){startArgsRef=a;P.script.done(JS_MODULE_ID_START_ARGS)};P.start.ready=function(a){P.script.ready(JS_MODULE_ID_START_ARGS,function(){a(startArgsRef)})};P.start.finishStart=function(){startArgsRef=null};window.P.start={start:P.start.start,ready:P.start.ready,finishStart:P.start.finishStart};var doc=document,head=doc.getElementsByTagName("head")[0],validBase=/^https?:\/\//,list={},ids={},delay={},scriptpath="",scripts={},s="string",f=!1,push="push",domContentLoaded="DOMContentLoaded",readyState="readyState",addEventListenerName="addEventListenerName",onreadystatechangeName="onreadystatechangeName";function every(a,b){for(var c=0,e=a.length;c<e;++c)if(!b(a[c]))return f;return!0}function each(a,b){every(a,function(a){return!b(a)});return f}
+!doc[readyState]&&doc[addEventListenerName]&&(doc[addEventListenerName](domContentLoaded,function fn(){doc.removeEventListener(domContentLoaded,fn,f);doc[readyState]="complete"},f),doc[readyState]="loading");
+function $script(a,b,c){function e(a){return a.call?a():list[a]}function d(){if(!--l){list[h]=1;k&&k();for(var a in delay)every(a.split("|"),e)&&!each(delay[a],e)&&(delay[a]=[])}}a=a[push]?a:[a];var g=b&&"function"==typeof b,k=g?b:c,h=g?a.join(""):b,l=a.length;setTimeout(function(){each(a,function(a){if(null===a)return d();if(scripts[a])return h&&(ids[h]=1),2==scripts[a]&&d();scripts[a]=1;h&&(ids[h]=1);create(!validBase.test(a)&&scriptpath?scriptpath+a+".js":a,d)})},0);return $script}
+function create(a,b){var c=!1,e=function(a,b){c||("loaded"==a.readyState||"completed"==a.readyState?b():setTimeout(function(){e(a,b)},100))},d=doc.createElement("script"),g=d.onload=d.onerror=d[onreadystatechangeName]=function(){c||(c=!0,d.readyState&&!/^c|loade/.test(d.readyState))||(d.onload=d[onreadystatechangeName]=null,scripts[a]=2,b())};e(d,g);d.async=1;d.src=a;head.insertBefore(d,head.firstChild)}$script.get=create;
+$script.order=function(a,b,c){(function d(){var g=a.shift();a.length?$script(g,d):$script(g,b,c)})()};$script.path=function(a){scriptpath=a};$script.ready=function(a,b,c){a=a[push]?a:[a];var e=[];!each(a,function(a){list[a]||e.push(a)})&&every(a,function(a){return list[a]})?b():function(a){delay[a]||(delay[a]=[]);delay[a][push](b);c&&c(e)}(a.join("|"));return $script};$script.done=function(a){$script([null],a)};
+                    P.scout.CONST={};P.scout.CONST.PIN_WIDTH=236;P.scout.CONST.PIN_MARGIN=14;P.scout.CONST.MIN_COLUMNS=3;P.scout.CONST.MAX_COLUMNS=10;P.bodyColumns.initialize(P.scout.CONST.PIN_WIDTH,P.scout.CONST.PIN_MARGIN,P.scout.CONST.MIN_COLUMNS,P.scout.CONST.MAX_COLUMNS);
+            </script>
+    
+                        <script src="https://s-passets-ec.pinimg.com/webapp/js/app/desktop/bundle-1.4356ac5d.js"></script>
+                    <script src="https://s-passets-ec.pinimg.com/webapp/js/app/desktop/bundle-2.215d6536.js"></script>
+            
+    <link rel="canonical" href="/join/?next=/pin/create/button/%3Furl%3Dhttp%253A%252F%252F5newsonline.com%252F2014%252F07%252F28%252Fbe-a-bus-stop-forecast-kid%252F%26description%3DBe%2520a%2520Bus%2520Stop%2520Forecast%2520Kid">
+
+            
+    <link rel="alternate" hreflang="en" href="http://www.pinterest.com/join/?next=/pin/create/button/%3Furl%3Dhttp%253A%252F%252F5newsonline.com%252F2014%252F07%252F28%252Fbe-a-bus-stop-forecast-kid%252F%26description%3DBe%2520a%2520Bus%2520Stop%2520Forecast%2520Kid" />
+
+        <link rel="apple-touch-icon" href="https://s-passets-ec.pinimg.com/webapp/style/app/desktop/images/logo_trans_144x144.4d67817d.png">
+    <link rel="icon" href="https://s-passets-ec.pinimg.com/webapp/style/app/desktop/images/favicon.c37ee67b.png">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Pinterest">
+    <link rel="publisher" href="https://plus.google.com/+pinterest"/>
+    <!--[if IE]><link rel="shortcut icon" href="https://s-passets-ec.pinimg.com/webapp/style/app/desktop/images/favicon.85f9689a.ico"><![endif]-->
+    <meta name="application-name" content="Pinterest">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://s-passets-ec.pinimg.com/webapp/style/app/desktop/images/logo_trans_144x144.4d67817d.png">
+
+    <meta property="fb:app_id" content="274266067164">
+    <meta property="og:site_name" content="Pinterest">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Pinterest</title>
+
+            <meta property="og:url" name="og:url" content="http://www.pinterest.com" data-app>
+            <meta property="description" name="description" content="Pinterest is a visual discovery tool that you can use to find ideas for all your projects and interests." data-app>
+            <meta property="pinterest" name="pinterest" content="nohover" data-app>
+            <meta property="og:type" name="og:type" content="website" data-app>
+            <meta property="og:description" name="og:description" content="Pinterest is a visual discovery tool that you can use to find ideas for all your projects and interests." data-app>
+            <meta property="twitter:app:android" name="twitter:app:android" content="com.pinterest" data-app>
+            <meta property="twitter:app:id:ipad" name="twitter:app:id:ipad" content="429047995" data-app>
+            <meta property="og:title" name="og:title" content="Pinterest" data-app>
+            <meta property="twitter:card" name="twitter:card" content="summary" data-app>
+            <meta property="twitter:site" name="twitter:site" content="@pinterest" data-app>
+            <meta property="og:image" name="og:image" content="https://s-passets-ec.pinimg.com/images/about/logos/Pinterest_Favicon.png" data-app>
+            <meta property="twitter:app:id:iphone" name="twitter:app:id:iphone" content="429047995" data-app>
+    </head>
+<body>
+<div data-component-type="17" class="App content_only AppBase Module" id="App-3">
+
+
+
+    
+
+    
+
+<div class="appContent ">
+    <div class="mainContainer">
+                            <div class="LoginPage LoginPageBase inspiredWall Module" id="LoginPage-1">
+<div class="contents">
+    
+                
+        
+
+        <div class="UnauthHomePageBase pinitPopup messageVariant Module UnauthHomePage lite" id="UnauthHomePage-4">
+
+    
+    
+
+
+
+
+
+    
+
+<div class="BackgroundImage inspiredSearchBackgroundContainer active animate_background Module" id="BackgroundImage-5">
+    
+
+<div class="background fade" style="background-color: #FFF">
+    <img class="holderImage">
+</div>
+</div>
+
+    <div class="wholeUpsellMask">
+        <div class="maskInput">
+            <button type="button" class="appUpsell redButton Button Module hasText rounded btn" id="Button-6">    
+
+
+<em></em>
+<span class="buttonText">Get the Pinterest mobile app</span>
+        </button>
+        </div>
+        <div class="maskSuccess">
+            <div class="successText"></div>
+        </div>
+        <div class="maskFailure">
+            <div class="failureText"></div>
+        </div>
+    </div>
+    <div class="inspiredSearchContentWrapper pinitLanding">
+        <div class="inspiredSearchDialog">
+            <div class="homeUnauthLogoWrapper">
+                <h1 class="homeUnauthLogo">
+                    <span>Pinterest</span>
+                </h1>
+            </div>
+            <div class="inspiredSearchPinCaption centeredWithinWrapper">
+                <div class="title">
+                    Sign up to save this image <br> (and the link!) on Pinterest
+                </div>
+                <div class="subtitle">
+                    
+                </div>
+                <div class="inspiredSearchRegistrationContainer centeredWithinWrapper">
+                    <div class="registerButtons ">
+                                                <div class="register Module lite inspiredWallLogin  compactView LoginBase Login" id="Login-7">
+
+
+
+
+<form class="loginForm " method="post">
+                
+
+                    
+            
+            
+    
+        <div class="socialLogin">
+                                                                <button type="button" class="rounded Button Module large hasText unAuthFacebookConnect registerLoginButton unauthHomeRegisterButton multiStepRedesign btn" id="Button-17">    
+
+
+<em></em>
+<span class="buttonText">Continue with Facebook</span>
+        </button>
+                                                                            </div>
+
+    
+    <div class="formFooter">
+                                
+
+                    
+                    <p class="compactViewLogin">
+                            </p>
+                </div>
+</form>
+</div>
+                        <div class="UserRegisterBase UserRegister Module inline" id="UserRegister-8">
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    <div class="pinitLanding">
+<form class="standardForm  multiStepRedesign" method="post">
+            <div class="inlineEmailForm">
+            <ul class="namegroup">
+                <div class="step1 multiStep  pinitLanding
+                            multiStepRedesign ">
+                    <div class="step1Top">
+                                            </div>
+                                                                                    <div class="groupSeparatorWrapper">
+                        <div class="groupSeparator">
+                            <p>or</p>
+                        </div>
+                    </div>
+                    <div class="step1Bottom">
+                        <li class="emailGroup">
+                            <div class="emailFieldRedesign">
+                                <em id="errorIconEmail" class="errorIcon "></em>
+                                <input type="email"
+                                    name="email"
+                                    id="userEmail"
+                                    placeholder="Email"
+                                    class="email"
+                                    value=""
+                                         autofocus>
+                                                            </div>
+                            <div class="passwordFieldRedesign">
+                                <em id="errorIconPassword" class="errorIcon"></em>
+                                <input type="password"
+                                       name="password"
+                                       id="userPassword"
+                                       placeholder="Create a password"
+                                       class="password"
+                                       value="">
+                            </div>
+                                                        <input type="hidden" name="country" value="US">
+                        </li>
+
+                        <li class="signupFirstStep">
+                            <div id="firstStepTooltip" class="errorTooltip"></div>
+                            <div class="signupButton">
+                                <button type="button" class="medium primary continueButton rounded Button Module large hasText btn" id="Button-18">    
+
+
+<em></em>
+<span class="buttonText">Sign up</span>
+        </button>
+                            </div>
+                        </li>
+                                                                    </div>
+                </div>
+                <div class="step2 multiStepRedesign 
+                            pinitLanding ">
+                                        <li>
+                        <div class="nameFieldRedesign ">
+                            <em id="errorIconName" class="errorIcon"></em>
+                            <input type="text"
+                                class="name first"
+                                name="full_name"
+                                id="userFullName"
+                                placeholder="First and last name"
+                                value=""
+                                    >
+                            <div id="secondStepTooltip" class="errorTooltip nameAndAge"></div>
+                        </div>
+                        <div class="ageFieldRedesign">
+                            <em id="errorIconAge" class="errorIcon"></em>
+                            <input type="text"
+                                class="age"
+                                name="age"
+                                id="userAge"
+                                placeholder="Age"
+                                value="">
+                        </div>
+                    </li>
+                    <li>
+                        <div id="secondStepTooltip" class="errorTooltip nameAndAge"></div>
+                    </li>
+                                        <li class="genderFormItem ">
+                                                
+                        <div class="formInputWrapper">
+                                    <h3></h3>
+    <div class="fieldsetWrapper">
+        <fieldset class="formInlineCheckedSet">
+                    <ul>
+                            <li>    <label>
+                    <input name="gender"
+                   type="radio"
+                                      value="male">
+                <span class=" genderDark ">
+        Male</span>
+    </label>
+</li>
+                            <li>    <label>
+                    <input name="gender"
+                   type="radio"
+                                      value="female">
+                <span class=" genderDark ">
+        Female</span>
+    </label>
+</li>
+                    </ul>
+    
+        </fieldset>
+    </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <button type="button" class="medium rounded Button primary Module hasText btn signup" id="Button-19">    
+
+
+<span class="buttonText">Come on in</span>
+        </button>
+                        <div class="divider">
+                            <p></p>
+                        </div>
+                        <div class="businessField linkGroup ">
+                            <a href="/business/create/" class="businessSignupMulti"> Continue as a business</a>                        </div>
+                                            </li>
+                                    </div>
+            </ul>
+        </div>
+    </form>
+    </div>
+</div>
+                    </div>
+                </div>
+            </div>
+
+                                                    
+            <button type="button" class="rounded NavigateButton Button emailLogin Module hasText btn" id="NavigateButton-9">
+    
+
+
+<span class="buttonText">Log in</span>
+        </button>
+        </div>
+        <div class="homeUnauthNumbers">
+            <div class="left">
+                <div class="numbersWrapper">
+                    <div class="numbersTitle">
+                        30+
+                    </div>
+                    <div class="numbersSubtitle">
+                        billion Pins <br> to explore
+                    </div>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="numbersWrapper">
+                    <div class="numbersTitle">
+                        15
+                    </div>
+                    <div class="numbersSubtitle">
+                        seconds to <br> sign up (free!)
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='termsOfServiceFooter'>
+        Creating an account means you're okay with Pinterest's <a href="/_/_/about/terms/plain.html">Terms of Service</a> and <a href="/_/_/about/privacy/plain.html">Privacy Policy</a>.        </div>
+    </div>
+
+
+    <div class="inspiredSearchAboutTermsWrapper">
+            <a href="http://www.pinterest.com/_/_/about/" type="button" class="NavigateButton Button Module hasText borderless homeUnauthTertiaryHorizontal about" id="NavigateButton-10">
+    
+
+
+<span class="buttonText">About Pinterest</span>
+        </a>
+
+    <a href="http://www.pinterest.com/_/_/blog/" type="button" class="NavigateButton Button homeUnauthTertiaryHorizontal blog Module hasText borderless" id="NavigateButton-11">
+    
+
+
+<span class="buttonText">Blog</span>
+        </a>
+
+    <a href="http://www.pinterest.com/_/_/business" type="button" class="homeUnauthTertiaryHorizontal business NavigateButton Button Module hasText borderless" id="NavigateButton-12">
+    
+
+
+<span class="buttonText">Businesses</span>
+        </a>
+
+    <a href="http://www.pinterest.com/_/_/about/terms/" type="button" class="NavigateButton Button homeUnauthTertiaryHorizontal termsPrivacy hasText Module borderless" id="NavigateButton-13">
+    
+
+
+<span class="buttonText">Terms & Privacy</span>
+        </a>
+
+    <a href="http://www.pinterest.com/_/_/help/" type="button" class="NavigateButton Button Module hasText borderless homeUnauthTertiaryHorizontal help" id="NavigateButton-14">
+    
+
+
+<span class="buttonText">Help</span>
+        </a>
+
+    <a href="http://r.yoz.io/lp.c.c?utm_source=http%3A%2F%2F5newsonline.com%2F2014%2F07%2F28%2Fbe-a-bus-stop-forecast-kid%2F&amp;utm_medium=login_desktop&amp;install_id=d854e6b1c5674ace9fa958123723e23b" type="button" class="NavigateButton Button borderless Module hasText homeUnauthTertiaryHorizontal iOS" rel="nofollow" id="NavigateButton-15">    
+    
+
+
+<span class="buttonText">iPhone App</span>
+        </a>
+
+    <a href="http://r.yoz.io/lp.c.h?utm_source=http%3A%2F%2F5newsonline.com%2F2014%2F07%2F28%2Fbe-a-bus-stop-forecast-kid%2F&amp;utm_medium=login_desktop&amp;install_id=d854e6b1c5674ace9fa958123723e23b" type="button" class="NavigateButton Button Module homeUnauthTertiaryHorizontal googlePlay hasText borderless" rel="nofollow" id="NavigateButton-16">    
+    
+
+
+<span class="buttonText">Android App</span>
+        </a>
+</div>
+
+    <div class="interestsWrapper">
+        <div class="gradient"></div>
+        <span>Discover Pinterest:</span>
+                                                    <a href="http://www.pinterest.com/all/gardening/">Gardening</a>
+                                            <a href="http://www.pinterest.com/all/travel/">Travel</a>
+                                            <a href="http://www.pinterest.com/all/kids/">Kids</a>
+                                            <a href="http://www.pinterest.com/explore/crossfit/">Crossfit</a>
+                                            <a href="http://www.pinterest.com/explore/motorcycles/">Motorcycles</a>
+                                            <a href="http://www.pinterest.com/all/weddings/">Weddings</a>
+                                            <a href="http://www.pinterest.com/all/humor/">Humor</a>
+                                            <a href="http://www.pinterest.com/all/quotes/">Quotes</a>
+                                            <a href="http://www.pinterest.com/all/diy_crafts/">DIY</a>
+                                            <a href="http://www.pinterest.com/all/design/">Design</a>
+                                            <a href="http://www.pinterest.com/all/animals/">Animals</a>
+                                            <a href="http://www.pinterest.com/html_sitemap/pinners_a.html">Sitemap</a>
+                                            <a href="http://www.pinterest.com/pinterest-international/">International</a>
+                                            <a href="http://www.pinterest.com/pinpicks/us/bbq-school/">BBQ & Grilling Tips</a>
+            </div>
+</div>
+    </div>
+</div>
+        
+    </div>
+    <div class="appendedContainer">
+    </div>
+</div>
+
+                        <div class="NagNoScript NagBase Module centeredWithinWrapper" id="NagNoScript-2">
+
+
+
+
+    <noscript>
+            
+        
+                
+        <div class="message">Oh no! Pinterest doesn't work unless you <a href="http://enable-javascript.com/" rel="nofollow">turn on JavaScript.</a></div>
+    
+        
+        <style>
+            .NagBase {
+                display: none;
+            }
+        </style>
+    </noscript>
+</div>
+    </div>    
+        
+        <script id="jsInit">
+                P.scout.init({"page_load_request_identifier": "376131535352", "streaming": false, "page_route_pattern": "", "facebook_key": "274266067164", "context": {"deep_link_tracking": {"utm_content": null, "utm_medium": 1900, "utm_source": 32}, "app_version": "7e1a1a4"}, "routes": [{"extraContent": {"allow_full_page": false, "resource_method": "${method}", "append": "?{append}"}, "named": {"name": 0, "method": 1}, "resource": {"name": "${name}", "options": "?{options}"}, "module": "?{module_name}", "pathPattern": "^\/resource\/([^\/]+)\/([^\/]+)\/$", "options": "?{module_options}"}, {"extraContent": {"allow_full_page": false, "error_strategy": "?{error_strategy}", "append": "?{append}"}, "named": {"name": 0}, "resource": {"name": "?{resource_name}", "options": "?{options}"}, "module": "${name}", "pathPattern": "^\/module\/([^\/]+)\/$", "options": "?{module_options}"}, {"extraContent": {"optimizely_eligible_page": true, "content_only": true, "https": true}, "named": {"network": 0}, "resource": {}, "module": "UserRegisterPage", "pathPattern": "^\/join\/register\/([^\/]+)\/", "options": {"auto_follow_interest": "?{auto_follow_interest}", "prev": "?{prev}", "network": "${network}", "next": "?{next}"}}, {"extraContent": {"content_only": true, "https": true}, "named": {"reason": 0}, "resource": {}, "module": "UserRegisterRestricted", "pathPattern": "^\/join\/restricted\/([^\/]+)\/", "options": {"reason": "${reason}"}}, {"extraContent": {"redirect": "\/?following_page_redirect=true"}, "named": {}, "resource": {}, "module": "", "pathPattern": "^\/following\/$", "options": {}}, {"extraContent": {"require_authentication": true, "login_parameters": {"username": "${username}", "auto_follow": "true"}}, "named": {"username": 0}, "resource": {}, "module": "AutoFollow", "pathPattern": "^\/follow\/([^\/]+)\/*$", "options": {"username": "${username}"}}, {"extraContent": {"require_authentication": true, "login_parameters": {"username": "${username}", "boardname": "${slug}", "auto_follow": "true"}}, "named": {"username": 0, "slug": 1}, "resource": {}, "module": "AutoFollow", "pathPattern": "^\/follow\/([^\/]+)\/([^\/]+)\/*$", "options": {"username": "${username}", "username_and_slug": "${username}\/${slug}"}}, {"extraContent": {"content_only": true}, "named": {}, "resource": {}, "module": "LogoutPage", "pathPattern": "^\/logout\/", "options": {"next": "?{next}"}}, {"extraContent": {"show_categories_bar": true, "log": {"view_parameter": 2, "view_type": 1}}, "named": {}, "resource": {}, "module": "FeedPage", "pathPattern": "^\/all\/$", "options": {"feed": "everything"}}, {"extraContent": {"show_categories_bar": true, "log": {"view_parameter": 2, "view_type": 1}, "canonical_url": "\/all\/"}, "named": {}, "resource": {}, "module": "FeedPage", "pathPattern": "^\/all\/everything\/$", "options": {"feed": "everything"}}, {"extraContent": {"show_categories_bar": true, "log": {"helper_data": {"feed": "${category}", "is_category": true}, "view_type": 1}}, "named": {"category": 0}, "resource": {}, "module": "FeedPage", "pathPattern": "^\/all\/([^\/]+)\/$", "options": {"feed": "${category}", "is_category": true}}, {"extraContent": {"ios_deep_link": "pinterest:\/\/conversation\/${conversation_id}", "android_deep_link": "pinterest:\/\/conversation\/${conversation_id", "log": {"view_parameter": 92, "view_type": 1}}, "named": {"conversation_id": 0}, "resource": {}, "module": "HomePage", "pathPattern": "^\/conversation\/([^\/]+)\/*$", "options": {"auto_follow_interest": "?{auto_follow_interest}", "allow_nux": "?{allow_nux}", "email_updated": "?{ues}", "tab": "following"}}, {"extraContent": {}, "named": {}, "resource": {"name": "ManagedListResource", "options": {"field_set_key": "grid_item", "shuffle": true, "domain": "place_pins", "list": "examples", "page_size": 24}}, "module": "promo.PlacesBoardExamples", "pathPattern": "^\/places\/examples\/$", "options": {}}, {"extraContent": {"redirect": "\/nbctv\/the-66th-primetime-emmys\/"}, "named": {}, "resource": {}, "module": "", "pathPattern": "^\/emmysnbc\/$", "options": {}}, {"extraContent": {"redirect": "\/nbctv\/the-66th-primetime-emmys\/"}, "named": {}, "resource": {}, "module": "", "pathPattern": "^\/nbcemmys\/$", "options": {}}, {"extraContent": {"redirect": "\/nbctv\/the-66th-primetime-emmys\/"}, "named": {}, "resource": {}, "module": "", "pathPattern": "^\/primetimeemmys\/$", "options": {}}, {"extraContent": {"show_categories_bar": true, "log": {"view_parameter": 3, "view_type": 1}, "canonical_url": "\/all\/popular\/"}, "named": {}, "resource": {}, "module": "FeedPage", "pathPattern": "^\/popular\/$", "options": {"feed": "popular"}}, {"extraContent": {"show_categories_bar": true, "log": {"view_parameter": 85, "view_type": 1}, "canonical_url": "\/all\/gifts\/"}, "named": {}, "resource": {}, "module": "FeedPage", "pathPattern": "^\/gifts\/$", "options": {"feed": "gifts", "low_price": "?{low_price}", "high_price": "?{high_price}"}}, {"extraContent": {"show_categories_bar": true, "log": {"view_parameter": 128, "view_type": 1}, "canonical_url": "\/all\/videos\/"}, "named": {}, "resource": {}, "module": "FeedPage", "pathPattern": "^\/videos\/$", "options": {"feed": "videos"}}, {"extraContent": {"log": {"view_parameter": 136, "helper_data": {"interest": "${interest}"}, "view_type": 1}, "canonical_url": "\/explore\/${interest}\/"}, "named": {"interest": 0}, "resource": {"name": "InterestResource", "options": {"interest": "${interest}"}}, "module": "InterestFeedPage", "pathPattern": "^\/explore\/([^\/]+)\/$", "options": {"auto_follow": "?{auto_follow}", "interest": "${interest}"}}, {"extraContent": {"log": {"view_parameter": 43, "view_type": 2}}, "named": {}, "resource": {"name": "BaseSearchResource", "options": {"scope": "pins", "query": "?{q}"}}, "module": "SearchPage", "pathPattern": "^\/search\/$", "options": {"scope": "pins", "query": "?{q}"}}, {"extraContent": {"log": {"helper_data": {"scope": "${scope}"}, "view_type": 2}}, "named": {"scope": 0}, "resource": {"name": "BaseSearchResource", "options": {"restrict": "?{restrict}", "scope": "${scope}", "constraint_string": "?{fc}", "show_scope_selector": true, "query": "?{q}"}}, "module": "SearchPage", "pathPattern": "^\/search\/([^\/]+)\/$", "options": {"restrict": "?{restrict}", "scope": "${scope}", "constraint_string": "?{fc}", "show_scope_selector": true, "query": "?{q}"}}, {"extraContent": {"log": {"view_parameter": 181, "helper_data": {"scope": "boards"}, "view_type": 2}}, "named": {}, "resource": {"name": "BaseSearchResource", "options": {"scope": "boards", "layout": "places", "show_scope_selector": true, "query": "?{q}"}}, "module": "SearchPage", "pathPattern": "^\/search\/boards\/places\/$", "options": {"query": "?{q}", "layout": "places", "scope": "boards"}}, {"extraContent": {"log": {"helper_data": {"ingredient": "${ingredient}"}, "view_type": 28}}, "named": {"ingredient": 0}, "resource": {"name": "RecipePagesResource", "options": {"scope": "recipes", "show_scope_selector": false, "query": "${ingredient}"}}, "module": "RecipeFeedPage", "pathPattern": "^\/recipes\/([^\/]+)\/$", "options": {"ingredient": "${ingredient}"}}, {"extraContent": {}, "named": {"query": 0}, "resource": {"name": "BrowseResource", "options": {"query": "${query}"}}, "module": "SearchPage", "pathPattern": "^\/browse\/([^\/]+)\/$", "options": {"query": "${query}"}}, {"extraContent": {"content_only": true}, "named": {}, "resource": {}, "module": "OffsitePage", "pathPattern": "^\/offsite\/$", "options": {"redirect_status": "?{redirect_status}", "sanitized_url": "?{sanitized_url}"}}, {"extraContent": {"content_only": true, "https": true}, "named": {}, "resource": {"name": "OAuthAuthorizationResource", "options": {"scope": "?{scope}", "state": "?{state}", "redirect_uri": "?{redirect_uri}", "response_type": "?{response_type}", "consumer_id": "?{consumer_id}"}}, "module": "OAuthPage", "pathPattern": "^\/oauth\/$", "options": {"scope": "?{scope}", "state": "?{state}", "redirect_uri": "?{redirect_uri}", "response_type": "?{response_type}", "consumer_id": "?{consumer_id}"}}, {"extraContent": {"require_authentication": true, "content_only": true, "https": true}, "named": {}, "resource": {}, "module": "OAuthDialog", "pathPattern": "^\/oauth\/dialog\/$", "options": {"scope": "?{scope}", "state": "?{state}", "redirect_uri": "?{redirect_uri}", "response_type": "?{response_type}", "consumer_id": "?{consumer_id}"}}, {"extraContent": {"suppress_nags": true, "https": true}, "named": {"username": 0}, "resource": {"name": "VerifyEmailTokenResource", "options": {"username": "${username}", "token": "?{t}", "expiration": "?{e}"}}, "module": "ResetPasswordPage", "pathPattern": "^\/pw\/([^\/]+)\/$", "options": {"username": "${username}", "token": "?{t}", "expiration": "?{e}"}}, {"extraContent": {}, "named": {}, "resource": {"name": "FindPinImagesResource", "options": {"url": "?{url}"}}, "module": "ImagesFeedPage", "pathPattern": "^\/pin\/find\/$", "options": {"url": "?{url}"}}, {"extraContent": {}, "named": {}, "resource": {}, "module": "DomainVerifyByLink", "pathPattern": "^\/website\/verify\/link\/", "options": {"domain": "?{domain}"}}, {"extraContent": {}, "named": {}, "resource": {}, "module": "EmailVerificationError", "pathPattern": "\/email_verification_error\/$", "options": {}}, {"extraContent": {"content_only": true, "https": true}, "named": {}, "resource": {}, "module": "BusinessAccountCreate", "pathPattern": "^\/business\/create\/", "options": {}}, {"extraContent": {}, "named": {}, "resource": {}, "module": "BusinessTOS", "pathPattern": "^\/business\/tos\/$", "options": {}}, {"extraContent": {"require_authentication": true, "content_only": true, "log": {"view_parameter": 119, "view_type": 12}}, "named": {"method": 0}, "resource": {}, "module": "PinBookmarklet", "pathPattern": "^\/pin\/create\/([^\/]+)\/$", "options": {"description": "?{description}", "title": "?{title}", "url": "?{url}", "image_url": "?{media}", "is_video": "?{is_video}", "method": "${method}"}}, {"extraContent": {"suppress_nags": true, "suppress_nag_download": true, "suppress_js_nag": true, "https": true}, "named": {}, "resource": {"name": "SignedEmailSubscriptionResource", "options": {"od": "?{od}", "user_id": "?{user_id}"}}, "module": "SignedEmailUnsubscribePage", "pathPattern": "^\/email\/subscription\/$", "options": {}}, {"extraContent": {"suppress_nags": true, "suppress_nag_download": true, "suppress_js_nag": true, "https": true}, "named": {}, "resource": {"name": "SignedEmailSettingsResource", "options": {"od": "?{od}", "user_id": "?{user_id}"}}, "module": "SignedEmailSettingsPage", "pathPattern": "^\/email\/settings\/$", "options": {}}, {"extraContent": {}, "named": {"country": 0, "pinpick": 1}, "resource": {"name": "PinPicksResource", "options": {"pinpickname": "${pinpick}", "country": "${country}"}}, "module": "PinPicksDetail", "pathPattern": "^\/pinpicks\/([^\/]+)\/([^\/]+)\/$", "options": {}}, {"extraContent": {"suppress_nags": true, "suppress_nag_download": true, "suppress_js_nag": true, "https": true}, "named": {}, "resource": {"name": "SignedEmailAssociationResource", "options": {"od": "?{od}", "user_id": "?{user_id}"}}, "module": "SignedEmailDisassociatePage", "pathPattern": "^\/email\/remove\/$", "options": {}}, {"extraContent": {}, "named": {"locale": 0, "url_name": 1}, "resource": {"name": "EditorialResource", "options": {"locale": "${locale}", "url_name": "${url_name}"}}, "module": "Editorial", "pathPattern": "^\/editorial\/([^\/]+)\/([^\/]+)\/$", "options": {}}, {"extraContent": {"ios_deep_link": "pinterest:\/\/", "android_deep_link": "pinterest:\/\/", "log": {"view_parameter": 92, "view_type": 1}, "content_only_if_unauth": true, "optimizely_eligible_page": true, "https_if_unauth": true, "show_categories_bar": true}, "named": {}, "resource": {}, "module": "HomePage", "pathPattern": "^\/$", "options": {"signup_email": "?{email}", "auto_follow_interest": "?{auto_follow_interest}", "allow_nux": "?{allow_nux}", "tab": "following", "email_updated": "?{ues}", "following_page_redirect": "?{following_page_redirect}"}}, {"extraContent": {"show_categories_bar": true, "log": {"view_type": 19}}, "named": {}, "resource": {}, "module": "CategoriesPage", "pathPattern": "^\/categories\/$", "options": {}}, {"extraContent": {"show_categories_bar": true, "log": {"helper_data": {"feed": "${category}", "is_category": true}, "view_type": 1}, "canonical_url": "\/all\/${category}\/"}, "named": {"category": 0}, "resource": {}, "module": "FeedPage", "pathPattern": "^\/categories\/([^\/]+)\/$", "options": {"feed": "${category}", "is_category": true}}, {"extraContent": {"redirect": "\/categories\/"}, "named": {}, "resource": {}, "module": "", "pathPattern": "^\/explore\/$", "options": {}}, {"extraContent": {"log": {"view_parameter": 43, "view_type": 2}}, "named": {}, "resource": {"name": "BaseSearchResource", "options": {"scope": "pins", "boost": "recent_week", "show_scope_selector": true, "query": "?{q}"}}, "module": "SearchPage", "pathPattern": "^\/search\/pins\/recent\/$", "options": {"query": "?{q}", "boost": "recent_week", "scope": "pins"}}, {"extraContent": {}, "named": {}, "resource": {"name": "VisualSearchResource"}, "module": "VisualSearchPage", "pathPattern": "^\/visualsearch\/browse\/$", "options": {}}, {"extraContent": {}, "named": {"browse_object": 0}, "resource": {"name": "VisualSearchResource", "options": {"browse_object": "${browse_object}"}}, "module": "VisualSearchPage", "pathPattern": "^\/visualsearch\/browse\/([^\/]+)\/$", "options": {}}, {"extraContent": {}, "named": {"id": 0}, "resource": {"name": "VisualSearchResource", "options": {"pin_id": "${id}"}}, "module": "VisualSearchPage", "pathPattern": "^\/visualsearch\/([^\/]+)\/$", "options": {}}, {"extraContent": {}, "named": {"obj": 1, "id": 0}, "resource": {"name": "VisualSearchResource", "options": {"pin_id": "${id}", "obj_id": "${obj}"}}, "module": "VisualSearchPage", "pathPattern": "^\/visualsearch\/([^\/]+)\/([^\/]+)\/$", "options": {}}, {"extraContent": {}, "named": {"type": 0, "id": 1}, "resource": {"name": "VisualSearchResource", "options": {"pin_type": "${type}", "pin_id": "${id}"}}, "module": "VisualSearchPage", "pathPattern": "^\/search\/([^\/]+)\/([^\/]+)\/$", "options": {"pin_type": "${type}", "pin_id": "${id}"}}, {"extraContent": {}, "named": {}, "resource": {}, "module": "CsrfErrorPage", "pathPattern": "\/csrf_error\/$", "options": {}}, {"extraContent": {"log": {"view_parameter": 129, "view_type": 1}}, "named": {"domain": 0}, "resource": {"name": "DomainResource", "options": {"field_set_key": "access", "domain": "${domain}"}}, "module": "DomainFeedPage", "pathPattern": "^\/source\/([^\/]+)\/$", "options": {"domain": "${domain}", "feed_item_type": "most_recent"}}, {"extraContent": {"require_authentication": true, "log": {"view_parameter": 129, "view_type": 1}}, "named": {"domain": 0}, "resource": {"name": "DomainResource", "options": {"field_set_key": "access", "domain": "${domain}"}}, "module": "DomainFeedPage", "pathPattern": "^\/source\/([^\/]+)\/top\/repins\/$", "options": {"domain": "${domain}", "feed_item_type": "most_repinned", "aggregation": "?{aggregation}", "end_date": "?{end_date}"}}, {"extraContent": {"require_authentication": true, "log": {"view_parameter": 129, "view_type": 1}}, "named": {"domain": 0}, "resource": {"name": "DomainResource", "options": {"field_set_key": "access", "domain": "${domain}"}}, "module": "DomainFeedPage", "pathPattern": "^\/source\/([^\/]+)\/top\/clicks\/$", "options": {"domain": "${domain}", "feed_item_type": "most_clicked", "aggregation": "?{aggregation}", "end_date": "?{end_date}"}}, {"extraContent": {"require_authentication": true}, "named": {"domain": 0}, "resource": {}, "module": "DomainQuestionsPage", "pathPattern": "^\/source\/([^\/]+)\/questions\/$", "options": {"domain": "${domain}", "feed_item_type": "questions", "start_date": "?{start_date}", "end_date": "?{end_date}"}}, {"extraContent": {"require_authentication": true, "log": {"view_parameter": 135, "view_type": 30}}, "named": {}, "resource": {}, "module": "FindFriends", "pathPattern": "^\/find_friends\/$", "options": {}}, {"extraContent": {"require_authentication": true, "log": {"view_parameter": 135, "view_type": 30}}, "named": {}, "resource": {}, "module": "FindFriends", "pathPattern": "^\/find_friends\/facebook\/$", "options": {"tab": "facebook"}}, {"extraContent": {"require_authentication": true, "log": {"view_parameter": 135, "view_type": 30}}, "named": {}, "resource": {}, "module": "FindFriends", "pathPattern": "^\/find_friends\/twitter\/$", "options": {"tab": "twitter"}}, {"extraContent": {"require_authentication": true, "log": {"view_parameter": 135, "view_type": 30}}, "named": {}, "resource": {}, "module": "FindFriends", "pathPattern": "^\/find_friends\/invite\/$", "options": {"focus": "invite"}}, {"extraContent": {"content_only_if_unauth": true, "https": true}, "named": {}, "resource": {}, "module": "InviteLanding", "pathPattern": "^\/invited\/$", "options": {"inviter_user_id": "?{inviter_user_id}"}}, {"extraContent": {"require_authentication": true}, "named": {}, "resource": {"name": "FeedEditorPageResource"}, "module": "FeedEditorPage", "pathPattern": "^\/edit_home\/$", "options": {"tab": "follow_boards"}}, {"extraContent": {"require_authentication": true}, "named": {}, "resource": {"name": "FeedEditorPageResource"}, "module": "FeedEditorPage", "pathPattern": "^\/edit_home\/follow_boards\/$", "options": {"tab": "follow_boards"}}, {"extraContent": {"require_authentication": true}, "named": {}, "resource": {"name": "FeedEditorPageResource"}, "module": "FeedEditorPage", "pathPattern": "^\/edit_home\/unfollow_boards\/$", "options": {"tab": "unfollow_boards"}}, {"extraContent": {"is_full_page": false, "xframe_options_exempt": true, "https": true}, "named": {}, "resource": {}, "module": "FramedSignupContent", "pathPattern": "^\/f\/signup\/", "options": {"track_key": "?{track_key}", "message_type": "?{message_type}", "skip_nux": "?{skip_nux}"}}, {"extraContent": {"content_only": true, "https": true}, "named": {}, "resource": {}, "module": "LoginPage", "pathPattern": "^\/login\/$", "options": {"auto_follow_interest": "?{auto_follow_interest}", "prev": "?{prev}", "next": "?{next}"}}, {"extraContent": {"content_only": true, "https": true}, "named": {}, "resource": {}, "module": "PasswordResetOneClick", "pathPattern": "^\/login\/reset\/$", "options": {"username_or_email": "?{username_or_email}"}}, {"extraContent": {"redirect": "\/"}, "named": {}, "resource": {}, "module": "", "pathPattern": "^\/join\/signup\/", "options": {}}, {"extraContent": {"redirect": "\/"}, "named": {}, "resource": {}, "module": "", "pathPattern": "^\/signup\/", "options": {}}, {"extraContent": {"content_only": true, "https": true}, "named": {}, "resource": {}, "module": "LoginPage", "pathPattern": "^\/join\/register\/", "options": {"register": true}}, {"extraContent": {"content_only": true, "https": true}, "named": {}, "resource": {}, "module": "LoginPage", "pathPattern": "^\/join\/.*$", "options": {"register": true, "invite_follow_user": "?{username}", "next": "?{next}", "auto_follow_interest": "?{auto_follow_interest}", "invite_follow_board": "?{boardname}", "prev": "?{prev}"}}, {"extraContent": {"content_only": true, "https": true}, "named": {}, "resource": {}, "module": "LogoutAppUpsell", "pathPattern": "^\/loggedout\/getapp\/", "options": {"username": "?{username}"}}, {"extraContent": {"https": true}, "named": {}, "resource": {}, "module": "InitiatePasswordReset", "pathPattern": "^\/password\/reset\/", "options": {}}, {"extraContent": {"require_authentication": true}, "named": {}, "resource": {"name": "DomainVerifyResource"}, "module": "DomainVerify", "pathPattern": "^\/website\/verify\/$", "options": {}}, {"extraContent": {"require_authentication": true}, "named": {}, "resource": {"name": "UserResource", "options": {"username": "me"}}, "module": "BusinessGetStarted", "pathPattern": "^\/business\/getstarted\/$", "options": {"username": "me"}}, {"extraContent": {"require_authentication": true, "https": true}, "named": {}, "resource": {"name": "PartnerResource"}, "module": "BusinessAccountConvert", "pathPattern": "^\/business\/convert\/$", "options": {}}, {"extraContent": {}, "named": {}, "resource": {"name": "RichPinDebugResource", "options": {"link": "?{link}"}}, "module": "RichPinDebugger", "pathPattern": "^\/business\/tools\/site-debugger\/$", "options": {"link": "?{link}"}}, {"extraContent": {}, "named": {}, "resource": {"name": "RichPinSamplePinResource", "options": {}}, "module": "RichPinBuilder", "pathPattern": "^\/business\/tools\/rich-pin-builder\/$", "options": {}}, {"extraContent": {}, "named": {}, "resource": {"name": "RichPinValidateResource", "options": {"link": "?{link}"}}, "module": "RichPinValidator", "pathPattern": "^\/business\/tools\/rich-pin-validator\/$", "options": {"link": "?{link}"}}, {"extraContent": {}, "named": {}, "resource": {"name": "SubdomainResource"}, "module": "InternationalSubdomains", "pathPattern": "^\/pinterest-international\/$", "options": {}}, {"extraContent": {"require_authentication": true, "require_explicit_login": true, "require_secure_cookie": true, "https": true}, "named": {}, "resource": {"name": "UserSettingsResource"}, "module": "UserSettingsPage", "pathPattern": "^\/settings\/$", "options": {}}, {"extraContent": {"ios_deep_link": "pinterest:\/\/user\/${username}", "android_deep_link": "pinterest:\/\/user\/${username}", "canonical_url": "\/${username}\/", "log": {"view_parameter": 49, "view_type": 4}}, "named": {"username": 0}, "resource": {"name": "UserResource", "options": {"username": "${username}"}}, "module": "UserProfilePage", "pathPattern": "^\/([^\/]+)\/$", "options": {"show_redirected_memo": "?{redirected}", "report_user_spam": "?{report_user_spam}", "show_follow_memo": "?{auto_follow}", "tab": "boards"}}, {"extraContent": {"ios_deep_link": "pinterest:\/\/user\/${username}", "android_deep_link": "pinterest:\/\/user\/${username}", "log": {"view_parameter": 49, "view_type": 4}}, "named": {"username": 0}, "resource": {"name": "UserResource", "options": {"username": "${username}"}}, "module": "UserProfilePage", "pathPattern": "^\/([^\/]+)\/boards\/$", "options": {"tab": "boards"}}, {"extraContent": {"sub_page": "pins\/", "ios_deep_link": "pinterest:\/\/user\/${username}", "android_deep_link": "pinterest:\/\/user\/${username}", "log": {"view_parameter": 74, "view_type": 4}}, "named": {"username": 0}, "resource": {"name": "UserResource", "options": {"username": "${username}"}}, "module": "UserProfilePage", "pathPattern": "^\/([^\/]+)\/pins\/$", "options": {"tab": "pins"}}, {"extraContent": {"noindex": true, "android_deep_link": "pinterest:\/\/user\/${username}", "ios_deep_link": "pinterest:\/\/user\/${username}", "sub_page": "likes\/", "log": {"view_parameter": 52, "view_type": 4}}, "named": {"username": 0}, "resource": {"name": "UserResource", "options": {"username": "${username}"}}, "module": "UserProfilePage", "pathPattern": "^\/([^\/]+)\/likes\/$", "options": {"tab": "likes"}}, {"extraContent": {"noindex": true, "android_deep_link": "pinterest:\/\/user\/${username}", "ios_deep_link": "pinterest:\/\/user\/${username}", "sub_page": "followers\/", "log": {"view_parameter": 50, "view_type": 4}}, "named": {"username": 0}, "resource": {"name": "UserResource", "options": {"username": "${username}"}}, "module": "UserProfilePage", "pathPattern": "^\/([^\/]+)\/followers\/$", "options": {"tab": "followers"}}, {"extraContent": {"noindex": true, "android_deep_link": "pinterest:\/\/user\/${username}", "ios_deep_link": "pinterest:\/\/user\/${username}", "sub_page": "following\/", "log": {"view_parameter": 51, "view_type": 4}}, "named": {"username": 0}, "resource": {"name": "UserResource", "options": {"username": "${username}"}}, "module": "UserProfilePage", "pathPattern": "^\/([^\/]+)\/following\/$", "options": {"tab": "following"}}, {"extraContent": {"noindex": true, "android_deep_link": "pinterest:\/\/user\/${username}", "ios_deep_link": "pinterest:\/\/user\/${username}", "sub_page": "following\/", "log": {"view_parameter": 51, "view_type": 4}}, "named": {"username": 0, "following_type": 1}, "resource": {"name": "UserResource", "options": {"username": "${username}"}}, "module": "UserProfilePage", "pathPattern": "^\/([^\/]+)\/following\/([^\/]+)\/$", "options": {"following_type": "${following_type}", "tab": "following"}}, {"extraContent": {"sub_page": "pins\/follow\/", "content_only": true}, "named": {"username": 0}, "resource": {"name": "UserResource", "options": {"username": "${username}", "field_set_key": "detailed"}}, "module": "UserProfileFollow", "pathPattern": "^\/([^\/]+)\/pins\/follow\/$", "options": {}}, {"extraContent": {"require_authentication": true}, "named": {"id": 0}, "resource": {"name": "NetworkStoryResource", "options": {"story_id": "${id}"}}, "module": "NetworkStoryLandingPage", "pathPattern": "^\/news\/([^\/]+)\/$", "options": {}}, {"extraContent": {"ios_deep_link": "pinterest:\/\/pin\/${id}", "android_deep_link": "pinterest:\/\/pin\/${id}", "log": {"helper_data": {"pin_id": "${id}"}, "view_type": 3}}, "named": {"id": 0}, "resource": {"name": "PinResource", "options": {"field_set_key": "detailed", "fetch_visual_search_objects": true, "id": "${id}"}}, "module": "Closeup", "pathPattern": "^\/pin\/([^\/]+)\/$", "options": {"show_reg": "?{show_reg}", "sender": "?{sender}"}}, {"extraContent": {"content_only": true, "ios_deep_link": "pinterest:\/\/pin\/${id}", "android_deep_link": "pinterest:\/\/pin\/${id}", "canonical_url": "\/pin\/${id}\/", "https": true}, "named": {"id": 0}, "resource": {"name": "PinResource", "options": {"field_set_key": "detailed", "id": "${id}"}}, "module": "SentPin", "pathPattern": "^\/pin\/([^\/]+)\/sent\/$", "options": {"sender": "?{sender}"}}, {"extraContent": {"android_deep_link": "pinterest:\/\/pin\/${id}", "ios_deep_link": "pinterest:\/\/pin\/${id}", "require_explicit_login": true, "log": {"helper_data": {"pin_id": "${id}"}, "view_type": 3}, "canonical_url": "\/pin\/${id}\/"}, "named": {"id": 0}, "resource": {"name": "PinResource", "options": {"field_set_key": "detailed", "id": "${id}"}}, "module": "Closeup", "pathPattern": "^\/pin\/([^\/]+)\/edit\/$", "options": {"show_edit": true}}, {"extraContent": {"ios_deep_link": "pinterest:\/\/pin\/${id}", "android_deep_link": "pinterest:\/\/pin\/${id}", "log": {"helper_data": {"pin_id": "${id}"}, "view_type": 3}, "canonical_url": "\/pin\/${id}\/"}, "named": {"id": 0}, "resource": {"name": "PinResource", "options": {"field_set_key": "detailed", "id": "${id}"}}, "module": "Closeup", "pathPattern": "^\/pin\/([^\/]+)\/repin\/$", "options": {"show_repin": true}}, {"extraContent": {"require_authentication": true, "content_only": true}, "named": {"id": 0}, "resource": {"name": "PinResource", "options": {"field_set_key": "repin", "id": "${id}"}}, "module": "PinBookmarklet", "pathPattern": "^\/pin\/([^\/]+)\/repin\/x\/$", "options": {"action": "repin", "method": "bookmarklet", "default_repin_board_id": "?{bid}"}}, {"extraContent": {"ios_deep_link": "pinterest:\/\/pin\/${id}", "android_deep_link": "pinterest:\/\/pin\/${id}", "log": {"helper_data": {"pin_id": "${id}"}, "view_type": 3}}, "named": {"id": 0}, "resource": {"name": "PinResource", "options": {"field_set_key": "detailed", "id": "${id}"}}, "module": "Closeup", "pathPattern": "^\/pin\/([^\/]+)\/comments\/$", "options": {"show_reg": "?{show_reg}", "show_comments": true, "sender": "?{sender}"}}, {"extraContent": {"ios_deep_link": "pinterest:\/\/pin_question\/${id}\/?question_id=${qid}", "android_deep_link": "pinterest:\/\/pin\/${id}\/question\/${qid}", "log": {"helper_data": {"pin_id": "${id}", "question_id": "${qid}"}, "view_type": 3}}, "named": {"qid": 1, "id": 0}, "resource": {"name": "PinResource", "options": {"field_set_key": "detailed", "id": "${id}"}}, "module": "Closeup", "pathPattern": "^\/pin\/([^\/]+)\/question\/([^\/]+)\/$", "options": {"show_reg": "?{show_reg}", "sender": "?{sender}", "question_id": "${qid}"}}, {"extraContent": {"ios_deep_link": "pinterest:\/\/pin_answer\/${id}\/?question_id=${qid}&answer_id=${aid}", "android_deep_link": "pinterest:\/\/pin\/${id}\/question\/${qid}\/answer\/${aid}", "log": {"helper_data": {"pin_id": "${id}", "answer_id": "${aid}", "show_reply_answer_id": "${aid}", "question_id": "${qid}"}, "view_type": 3}}, "named": {"qid": 1, "id": 0, "aid": 2}, "resource": {"name": "PinResource", "options": {"field_set_key": "detailed", "id": "${id}"}}, "module": "Closeup", "pathPattern": "^\/pin\/([^\/]+)\/question\/([^\/]+)\/answer\/([^\/]+)\/$", "options": {"show_reg": "?{show_reg}", "answer_id": "${aid}", "show_reply_answer_id": "${aid}", "sender": "?{sender}", "question_id": "${qid}"}}, {"extraContent": {"ios_deep_link": "pinterest:\/\/pin_reply\/${id}\/?question_id=${qid}&answer_id=${aid}", "android_deep_link": "pinterest:\/\/pin\/${id}\/question\/${qid}\/answer\/${aid}\/replies\/", "log": {"helper_data": {"pin_id": "${id}", "answer_id": "${aid}", "question_id": "${qid}"}, "view_type": 3}}, "named": {"qid": 1, "id": 0, "aid": 2}, "resource": {"name": "PinResource", "options": {"field_set_key": "detailed", "id": "${id}"}}, "module": "Closeup", "pathPattern": "^\/pin\/([^\/]+)\/question\/([^\/]+)\/answer\/([^\/]+)\/replies\/$", "options": {"show_reg": "?{show_reg}", "answer_id": "${aid}", "show_reply_answer_id": "${aid}", "sender": "?{sender}", "question_id": "${qid}"}}, {"extraContent": {"noindex": true}, "named": {"id": 0}, "resource": {"name": "RepinFeedResource", "options": {"pin_id": "${id}", "page_size": 50}}, "module": "RepinsLikesFeedPage", "pathPattern": "^\/pin\/([^\/]+)\/repins\/$", "options": {"pin_id": "${id}", "type": "repins"}}, {"extraContent": {"noindex": true}, "named": {"id": 0}, "resource": {"name": "PinLikesResource", "options": {"pin_id": "${id}", "page_size": 50}}, "module": "RepinsLikesFeedPage", "pathPattern": "^\/pin\/([^\/]+)\/likes\/$", "options": {"pin_id": "${id}", "type": "likes"}}, {"extraContent": {}, "named": {}, "resource": {}, "module": "BoardCreate", "pathPattern": "^\/board\/create\/$", "options": {}}, {"extraContent": {"redirect_on_404": "\/${username}\/?redirected=1", "android_deep_link": "pinterest:\/\/board\/${username}\/${slug}", "ios_deep_link": "pinterest:\/\/board\/${username}\/${slug}", "log": {"view_type": 5}}, "named": {"username": 0, "slug": 1}, "resource": {"name": "BoardResource", "options": {"username": "${username}", "field_set_key": "detailed", "slug": "${slug}"}}, "module": "BoardPage", "pathPattern": "^\/([^\/]+)\/([^\/]+)\/$", "options": {"inviter_user_id": "?{inviter_user_id}", "show_follow_memo": "?{auto_follow}", "tab": "pins"}}, {"extraContent": {}, "named": {"username": 0, "slug": 1}, "resource": {"name": "BaseSearchResource", "options": {"board_slug": "${slug}", "scope": "my_pins", "user": "${username}", "query": "?{q}"}}, "module": "SearchPage", "pathPattern": "^\/([^\/]+)\/([^\/]+)\/search\/$", "options": {"board_slug": "${slug}", "scope": "my_pins", "user": "${username}", "query": "?{q}"}}, {"extraContent": {"android_deep_link": "pinterest:\/\/board\/${username}\/${slug}", "ios_deep_link": "pinterest:\/\/board\/${username}\/${slug}", "require_explicit_login": true, "log": {"view_type": 5}, "canonical_url": "\/${username}\/${slug}\/"}, "named": {"username": 0, "slug": 1}, "resource": {"name": "BoardResource", "options": {"username": "${username}", "field_set_key": "detailed", "slug": "${slug}"}}, "module": "BoardPage", "pathPattern": "^\/([^\/]+)\/([^\/]+)\/edit\/$", "options": {"show_edit": true, "tab": "pins"}}, {"extraContent": {"ios_deep_link": "pinterest:\/\/board\/${username}\/${slug}", "android_deep_link": "pinterest:\/\/board\/${username}\/${slug}", "canonical_url": "\/${username}\/${slug}\/", "log": {"view_type": 5}}, "named": {"username": 0, "slug": 1}, "resource": {"name": "BoardResource", "options": {"username": "${username}", "field_set_key": "detailed", "slug": "${slug}"}}, "module": "BoardPage", "pathPattern": "^\/([^\/]+)\/([^\/]+)\/pins\/$", "options": {"tab": "pins"}}, {"extraContent": {"noindex": true, "board_sub_page": "followers\/", "ios_deep_link": "pinterest:\/\/board\/${username}\/${slug}", "android_deep_link": "pinterest:\/\/board\/${username}\/${slug}", "log": {"view_parameter": 54, "view_type": 5}}, "named": {"username": 0, "slug": 1}, "resource": {"name": "BoardResource", "options": {"username": "${username}", "field_set_key": "detailed", "slug": "${slug}"}}, "module": "BoardPage", "pathPattern": "^\/([^\/]+)\/([^\/]+)\/followers\/$", "options": {"tab": "followers"}}, {"extraContent": {"https": true}, "named": {}, "resource": {}, "module": "TrademarkFormSelector", "pathPattern": "^\/about\/trademark\/form\/$", "options": {}}, {"extraContent": {"https": true}, "named": {"claim_type": 0}, "resource": {}, "module": "TrademarkForm", "pathPattern": "^\/about\/trademark\/form\/([^\/]+)\/$", "options": {"claim_type": "${claim_type}"}}, {"extraContent": {"require_authentication": true}, "named": {"domain": 0}, "resource": {"name": "AnalyticsCountsResource", "options": {"domain": "${domain}", "start_date": "?{start_date}", "end_date": "?{end_date}"}}, "module": "DomainAnalyticsPage", "pathPattern": "^\/source\/([^\/]+)\/analytics\/$", "options": {"domain": "${domain}", "start_date": "?{start_date}", "end_date": "?{end_date}"}}, {"extraContent": {}, "named": {}, "resource": {"name": "UserResource", "options": {"username": "me"}}, "module": "VerifyWebsite", "pathPattern": "^\/verify_website\/$", "options": {"username": "me"}}, {"extraContent": {"sandbox": true}, "named": {}, "resource": {}, "module": "Close", "pathPattern": "^\/close_window\/$", "options": {}}], "page_info": {"breadcrumbs": [], "meta": {"og:url": "http:\/\/www.pinterest.com", "description": "Pinterest is a visual discovery tool that you can use to find ideas for all your projects and interests.", "pinterest": "nohover", "og:type": "website", "og:description": "Pinterest is a visual discovery tool that you can use to find ideas for all your projects and interests.", "twitter:app:android": "com.pinterest", "twitter:app:id:ipad": "429047995", "og:title": "Pinterest", "twitter:card": "summary", "twitter:site": "@pinterest", "og:image": "https:\/\/s-passets-ec.pinimg.com\/images\/about\/logos\/Pinterest_Favicon.png", "twitter:app:id:iphone": "429047995"}, "title": "Pinterest"}, "strings": {}});
+        P.start.start({"gaAccountNumbers": ["UA-12967896-7"], "trustedHostnameEnding": "pinterest.com", "user": {"has_sterling_access": false, "autologin": null}, "canonicalMainDomain": "www.pinterest.com", "isLoggedIn": false, "tree": {"resource": null, "name": "App", "children": [{"resource": null, "name": "LoginPage", "id": "mainModule", "extraData": {"pinit_landing": true}, "children": [{"resource": {"name": "InspiredWallResource", "options": {"override_story": "pinit_save"}}, "name": "UnauthHomePage", "extraData": {"story": {"bg_style": "lite", "countries": {"exclude": ["ALL"]}, "story_id": "pinit_save", "title": "Sign up to save this image <br> (and the link!) on Pinterest", "bg_color": "#FFF", "bg_image": "https:\/\/s-passets-ec.pinimg.com\/webapp\/style\/app\/desktop\/images\/inspired\/bg_everything_grid.84a614ab.jpg"}, "secondStepMessage": "Looking good! Just a few more details..."}, "children": [{"resource": null, "name": "BackgroundImage", "id": "bgImage_pinit_save", "children": [], "errorStrategy": 2, "options": {"class_name": "inspiredSearchBackgroundContainer active animate_background", "image_preload_bg": "#FFF"}, "uid": "BackgroundImage-5"}, {"resource": null, "name": "Button", "id": "appUpsellButton", "children": [], "errorStrategy": 2, "options": {"has_icon": true, "text": "Get the Pinterest mobile app", "class_name": "appUpsell redButton", "size": null}, "uid": "Button-6"}, {"resource": null, "name": "Login", "extraData": {"showEmailSuggestion": false}, "children": [{"resource": null, "name": "Button", "id": "facebookSignup", "children": [], "errorStrategy": 2, "options": {"has_icon": true, "text": "Continue with Facebook", "class_name": "unAuthFacebookConnect registerLoginButton unauthHomeRegisterButton multiStepRedesign", "size": "large"}, "uid": "Button-17"}], "errorStrategy": 2, "options": {"style": "lite inspiredWallLogin ", "buttons_class": "unauthHomeRegisterButton multiStepRedesign", "register": true, "no_login_button": true, "next": "\/pin\/create\/button\/?url=http%3A%2F%2F5newsonline.com%2F2014%2F07%2F28%2Fbe-a-bus-stop-forecast-kid%2F&description=Be%20a%20Bus%20Stop%20Forecast%20Kid", "no_email_button": true, "compact_view": true}, "uid": "Login-7"}, {"resource": null, "name": "UserRegister", "extraData": {"show_password": true, "inlineForm": true, "show_email_suggestion": false, "disableAutofocus": false}, "children": [{"resource": null, "name": "Button", "id": "emailCompleteFirstStep", "children": [], "errorStrategy": 2, "options": {"class_name": "medium primary continueButton", "text": "Sign up", "has_icon": true, "size": "large"}, "uid": "Button-18"}, {"resource": null, "name": "Button", "id": "submitButton", "children": [], "errorStrategy": 2, "options": {"class_name": "signup", "text": "Come on in", "color": "primary", "size": "medium"}, "uid": "Button-19"}], "errorStrategy": 2, "options": {"ja_style": false, "pinit_multi_step": true, "view_type": "inline"}, "uid": "UserRegister-8"}, {"resource": null, "name": "NavigateButton", "id": "loginButton", "children": [], "errorStrategy": 2, "options": {"url": "\/login\/?next=%2Fpin%2Fcreate%2Fbutton%2F%3Furl%3Dhttp%253A%252F%252F5newsonline.com%252F2014%252F07%252F28%252Fbe-a-bus-stop-forecast-kid%252F%26description%3DBe%2520a%2520Bus%2520Stop%2520Forecast%2520Kid", "text": "Log in", "class_name": "emailLogin"}, "uid": "NavigateButton-9"}, {"resource": null, "name": "NavigateButton", "id": "about", "children": [], "errorStrategy": 2, "options": {"class_name": "homeUnauthTertiaryHorizontal about", "text": "About Pinterest", "has_icon": false, "element_type": "a", "url": "http:\/\/www.pinterest.com\/_\/_\/about\/", "borderless": true}, "uid": "NavigateButton-10"}, {"resource": null, "name": "NavigateButton", "id": "blog", "children": [], "errorStrategy": 2, "options": {"class_name": "homeUnauthTertiaryHorizontal blog", "text": "Blog", "has_icon": false, "element_type": "a", "url": "http:\/\/www.pinterest.com\/_\/_\/blog\/", "borderless": true}, "uid": "NavigateButton-11"}, {"resource": null, "name": "NavigateButton", "id": "business", "children": [], "errorStrategy": 2, "options": {"class_name": "homeUnauthTertiaryHorizontal business", "text": "Businesses", "has_icon": false, "element_type": "a", "url": "http:\/\/www.pinterest.com\/_\/_\/business", "borderless": true}, "uid": "NavigateButton-12"}, {"resource": null, "name": "NavigateButton", "id": "termsPrivacy", "children": [], "errorStrategy": 2, "options": {"class_name": "homeUnauthTertiaryHorizontal termsPrivacy", "text": "Terms & Privacy", "has_icon": false, "element_type": "a", "url": "http:\/\/www.pinterest.com\/_\/_\/about\/terms\/", "borderless": true}, "uid": "NavigateButton-13"}, {"resource": null, "name": "NavigateButton", "id": "help", "children": [], "errorStrategy": 2, "options": {"class_name": "homeUnauthTertiaryHorizontal help", "text": "Help", "has_icon": false, "element_type": "a", "url": "http:\/\/www.pinterest.com\/_\/_\/help\/", "borderless": true}, "uid": "NavigateButton-14"}, {"resource": null, "name": "NavigateButton", "id": "iOS", "children": [], "errorStrategy": 2, "options": {"class_name": "homeUnauthTertiaryHorizontal iOS", "text": "iPhone App", "nofollow": true, "has_icon": false, "element_type": "a", "url": "http:\/\/r.yoz.io\/lp.c.c?utm_source=http%3A%2F%2F5newsonline.com%2F2014%2F07%2F28%2Fbe-a-bus-stop-forecast-kid%2F&utm_medium=login_desktop&install_id=d854e6b1c5674ace9fa958123723e23b", "borderless": true}, "uid": "NavigateButton-15"}, {"resource": null, "name": "NavigateButton", "id": "googlePlay", "children": [], "errorStrategy": 2, "options": {"class_name": "homeUnauthTertiaryHorizontal googlePlay", "text": "Android App", "nofollow": true, "has_icon": false, "element_type": "a", "url": "http:\/\/r.yoz.io\/lp.c.h?utm_source=http%3A%2F%2F5newsonline.com%2F2014%2F07%2F28%2Fbe-a-bus-stop-forecast-kid%2F&utm_medium=login_desktop&install_id=d854e6b1c5674ace9fa958123723e23b", "borderless": true}, "uid": "NavigateButton-16"}], "errorStrategy": 2, "data": {"story": {"bg_style": "lite", "countries": {"exclude": ["ALL"]}, "story_id": "pinit_save", "title": "Sign up to save this image <br> (and the link!) on Pinterest", "bg_color": "#FFF", "bg_image": "https:\/\/s-passets-ec.pinimg.com\/webapp\/style\/app\/desktop\/images\/inspired\/bg_everything_grid.84a614ab.jpg"}}, "options": {"next": "\/pin\/create\/button\/?url=http%3A%2F%2F5newsonline.com%2F2014%2F07%2F28%2Fbe-a-bus-stop-forecast-kid%2F&description=Be%20a%20Bus%20Stop%20Forecast%20Kid", "pinit_landing": true}, "uid": "UnauthHomePage-4"}], "errorStrategy": 0, "options": {"register": true, "invite_follow_user": null, "next": "\/pin\/create\/button\/?url=http%3A%2F%2F5newsonline.com%2F2014%2F07%2F28%2Fbe-a-bus-stop-forecast-kid%2F&description=Be%20a%20Bus%20Stop%20Forecast%20Kid", "auto_follow_interest": null, "invite_follow_board": null, "prev": null}, "uid": "LoginPage-1"}, {"resource": null, "name": "NagNoScript", "extraData": {"type": "no_script"}, "children": [], "errorStrategy": 2, "options": {}, "uid": "NagNoScript-2"}], "deps": ["App", "AppBase", "LoginPage", "NagNoScript", "LoginPageBase", "UnauthHomePage", "UnauthHomePageBase", "BackgroundImage", "Button", "Login", "UserRegister", "NavigateButton", "LoginBase", "UserRegisterBase", "NagBase"], "errorStrategy": 2, "attributes": {"data-component-type": 17, "class": "App content_only AppBase Module", "id": "App-3"}, "options": {"module": {"error_strategy": 0, "name": "LoginPage", "options": {"register": true, "invite_follow_user": null, "next": "\/pin\/create\/button\/?url=http%3A%2F%2F5newsonline.com%2F2014%2F07%2F28%2Fbe-a-bus-stop-forecast-kid%2F&description=Be%20a%20Bus%20Stop%20Forecast%20Kid", "auto_follow_interest": null, "invite_follow_board": null, "prev": null}}, "view_type": "content_only"}, "uid": "App-3"}, "authenticationOrigin": "https:\/\/www.pinterest.com", "canDebug": false});
+    </script>
+</body>
+</html>

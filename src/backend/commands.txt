@@ -1,0 +1,10 @@
+chmod a+x index.sh
+chmod a+x query.sh
+
+./index.sh ./webpages ./output
+
+./query.sh dog ./output
+
+chmod 755 query
+chmod 644 index.html
+chmod 644 searchResults.php
