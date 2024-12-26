@@ -324,11 +324,11 @@ html, body {
 <body>
     <div id="header">
         <div id="topbar">
-            <a href="http://www.csce.uark.edu/~scvan/"><img id="searchbarimage" src="https://avatars.githubusercontent.com/u/41529985" style="background:none" alt="TelevisionNinja"></a>
-            <form action="/~scvan/searchResults.php" method="GET" role="search">
+            <a href="http://localhost:8080/"><img id="searchbarimage" src="https://avatars.githubusercontent.com/u/41529985" style="background:none" alt="TelevisionNinja"></a>
+            <form action="/searchResults.php" method="GET" role="search">
                 <div id="searchbar" type="text">
                     <?php
-                        echo "<input id=\"searchbartext\" name=\"q\" type=\"text\" value=\"" . str_replace("+"," ", $_GET[q]) . "\" title=\"Search\"/>";
+                        echo "<input id=\"searchbartext\" name=\"q\" type=\"text\" value=\"" . str_replace("+"," ", $_GET['q']) . "\" title=\"Search\"/>";
                     ?>
                     <button id="searchbarbutton">
                         <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -368,7 +368,7 @@ html, body {
         </div> -->
 
         <?php
-            echo exec ('/home/scvan/information\ retrieval/hw5/query ' . str_replace("+"," ", $_GET[q]) . ' /home/scvan/information\ retrieval/hw5/out');
+            echo exec ('/backend/bin/query ' . str_replace("+"," ", $_GET['q']) . ' /backend/output');
         ?>
     </div>
 

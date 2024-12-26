@@ -241,7 +241,7 @@ void presentResults(Weight accumulator[], ifstream &mapFile) {
 		getMapRecord(mapFile, accumulator[i].docID, filename);
 		/* cout << i << ": \t" << accumulator[i].docID << "\t" << accumulator[i].weight << "\t"  << filename << "\n"; */
 
-		output += "<div class=\"searchresult\"><a href=\"http://www.csce.uark.edu/~scvan/webpages/" + filename + "\"><h2>" + filename + "</h2></a><a>http://www.csce.uark.edu/~scvan/webpages/" + filename + "</a></div>";
+		output += "<div class=\"searchresult\"><a href=\"http://localhost:8080/webpages/" + filename + "\"><h2>" + filename + "</h2></a><a>http://localhost:8080/webpages/" + filename + "</a></div>";
 	}
 
 	// have a message for when there are no results
