@@ -21,11 +21,11 @@ This is a basic search engine I made for my information retrieval class. It uses
 ### Docker
 ```bash
 docker build -t search_image .
-docker run -p 8080:80 --name search_container search_image
+docker run -p 8080:80 --replace --name search_container search_image
 ```
 
 ### Podman
 ```bash
 podman build -t search_image .
-podman run -p 8080:80 --name search_container search_image
+podman run -p 8080:80 --replace --name search_container search_image
 ```
